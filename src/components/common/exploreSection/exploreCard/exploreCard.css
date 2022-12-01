@@ -3,6 +3,7 @@
     padding: 10px;
     border-radius: 15px;
     border: 1px solid transparent;
+    height: fit-content;
 
 }
 .explore-card-cover{
@@ -84,6 +85,7 @@
     max-width: 200px;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 18px;
     font-weight: 600;
     color: var(--heading-text);

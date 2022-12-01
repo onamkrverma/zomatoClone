@@ -1,5 +1,8 @@
 import React from 'react'
+import { diningOut } from '../../data/DiningOut'
 import Collection from '../common/collection/Collection'
+import ExploreSection from '../common/exploreSection/ExploreSection'
+import Filters from '../common/filters/Filters'
 import './dingingOut.css'
 
 const collectionList =[
@@ -40,7 +43,7 @@ const collectionList =[
   },
   {
     id:'6',
-    title: 'TBuzzing Nightlife & Clubs ',
+    title: 'Buzzing Nightlife & Clubs ',
     cover: 'https://b.zmtcdn.com/data/collections/8e46a581134a20b56489e22029095060_1669368003.jpg',
     place: '10 Places'
 
@@ -54,10 +57,41 @@ const collectionList =[
   },
 ]
 
+const diningFilters = [
+  {
+    id: 1,
+    icon: <i className="fi fi-rs-settings-sliders absolute-center"></i>,
+    title: 'Filters'
+  },
+  {
+    id: 2,
+    title: 'Rating: 4.0+'
+  },
+  {
+    id: 3,
+    title: 'Outdoor Seating'
+  },
+  
+  {
+    id: 4,
+    title: 'Serves Alcohol'
+  },
+  {
+    id: 5,
+    title: 'Open Now'
+  }
+]
+
+const diningList = diningOut;
+
 const DingingOut = () => {
   return (
     <div>
       <Collection list={collectionList} />
+      <div className='max-width'>
+        <Filters filtersList={diningFilters} />
+      </div>
+      <ExploreSection list={diningList} collectionName="Best Dining Restaurants near you in India Gate" />
     </div>
   )
 }
