@@ -4,6 +4,7 @@
 This is clone of zomato website developed with React js 
 [live preview](https://zomatouiclone.netlify.app/)
 
+
 ## Built with
 This project is built with these technologies 
 - React.js
@@ -16,6 +17,8 @@ This project is built with these technologies
  📱  **Fully Responsive**
 
 
+## Deployement
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ac304c4-a7c5-4aeb-af7e-0115f09830e1/deploy-status)](https://zomatouiclone.netlify.app/)
 
 # Getting Started 
 clone down this repositery. You will need to `node.js` and `git` installed globally on your machine.
