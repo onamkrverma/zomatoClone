@@ -10,6 +10,24 @@ const settings = {
   slidesToScroll: 1,
   nextArrow: <NextArrow/>,
   prevArrow: <PrevArrow/>,
+  responsive: [
+    {
+      breakpoint: 426,
+      settings: {
+        slidesToShow: 1.4,
+        
+      }
+    },
+    {
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 3.5,
+        
+      }
+    },
+]
+  
+  
 };
 
 const Collection = ({ list }) => {

@@ -32,3 +32,15 @@
 .active-tab .tab-name{
     color: var(--zomato-red);
 }
+
+/* responsive css for mobile */
+
+@media (max-width:769px){
+    .options-wrapper{
+        flex-wrap:wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

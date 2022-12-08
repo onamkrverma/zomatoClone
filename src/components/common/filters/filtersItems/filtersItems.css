@@ -11,3 +11,13 @@
 .filter-name{
     margin-left: 5px;
 }
+
+
+@media (max-width:769px){
+    .filters-items{
+        align-items: center;
+        white-space: nowrap;
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+}

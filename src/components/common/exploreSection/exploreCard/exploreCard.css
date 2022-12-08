@@ -144,3 +144,16 @@
     border: 1px solid var(--border-white);
     box-shadow: var(--collection-shadow);
 }
+
+
+@media (max-width:769px){
+    .explore-card-cover{
+        height: 198px;
+        width: 100%;
+    }
+    .explore-card{
+        width: 100%;
+        box-shadow: var(--card-shadow);
+    }
+
+}

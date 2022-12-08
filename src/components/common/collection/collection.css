@@ -64,3 +64,17 @@
 .collection-card-subtitle i{
     margin-left: 7px;
 }
+
+@media (max-width:769px){
+    .collection{
+        margin: 4px 16px;
+    }
+    .collection-subtitle-text, .collection-location{
+        font-size: 14px;
+
+    }
+    .collection-cover{
+        height: 240px;
+        width: 200px;
+    }
+}

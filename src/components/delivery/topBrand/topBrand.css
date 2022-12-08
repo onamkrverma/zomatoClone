@@ -28,3 +28,14 @@
     font-weight: 400;
     margin: 10px 0;
 }
+
+@media (max-width:769px){
+    .top-brand{
+        padding: 15px;
+    }
+    .top-brand-cover{
+        height: 85px;
+        width: 85px;
+    }
+    
+}

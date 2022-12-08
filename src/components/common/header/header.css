@@ -85,3 +85,61 @@
 .profile-options-icon{
     font-size: 20px;
 }
+.header-mobile{
+    display: none;
+}
+
+/* responsive css for mobile */
+
+@media (max-width:769px){
+    .header{
+        display: none;
+    }
+    .header-mobile{
+        display: block;
+    }
+    .logo-profile-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: inherit ;
+        background-color: var(--primary-bg);
+        padding: 0px 10px;
+        box-shadow: var(--header-shadow);
+        height: 56px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 4;
+    }
+    .header-mobile-logo{
+        height: 20px;
+        width: 94px;
+    }
+    .header-mobile-profile-image{
+        width: 32px;
+        height: 32px;
+    }
+    .header-mobile-location-search-container{
+        justify-content: space-between;
+        width: inherit ;
+        padding: 11px 14px 11px 25px;
+        border: none;
+        
+    }
+    .mobile-location-icon-name{
+        color: var(--heading-text);
+    }
+    .header-mobile-searchBar{
+       height: 22px;
+        width: 22px;
+        border-radius: 50%;
+        padding: 9px;
+        border: 1px solid var(--border-white);
+        background-color: var(--inactive-color); 
+    }
+    .mobile-search-icon{
+        color: var(--header-shadow);
+    }
+    
+}

@@ -76,6 +76,20 @@ const settings = {
     slidesToScroll: 1,
     nextArrow: <NextArrow/> ,
     prevArrow: <PrevArrow/> ,
+    responsive: [
+        {
+          breakpoint: 426,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 5,
+          }
+        }
+    ]
   };
 
 const DeliveryCollections = () => {
